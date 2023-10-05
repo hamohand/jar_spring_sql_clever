@@ -1,0 +1,6 @@
+com\example\helloworld\entities\Etudiant.class
+com\example\helloworld\repository\IEtudiantRepositoryJpa.class
+com\example\helloworld\service\IEtudiantService.class
+com\example\helloworld\controller\EtudiantRestApi.class
+com\example\helloworld\HelloworldApplication.class
+com\example\helloworld\service\EtudiantServiceImpl.class
