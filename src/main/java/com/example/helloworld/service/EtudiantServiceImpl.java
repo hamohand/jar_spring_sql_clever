@@ -40,6 +40,7 @@ public class EtudiantServiceImpl implements IEtudiantService{
                 .orElseThrow(() -> new RuntimeException("Etudiant non trouvé"));
         etudiantSilExiste.setNom(etudiant.getNom());
         etudiantSilExiste.setNote(etudiant.getNote());
+        etudiantSilExiste.setAdmis((Math.random() > 10));
         return this.iEtudiantRepositoryJpa.save(etudiantSilExiste);
     }
 
