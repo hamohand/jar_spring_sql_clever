@@ -28,7 +28,7 @@ public class HelloworldApplication {
 						Etudiant etudiant = new Etudiant();
 						etudiant.setNom(nom);
 						etudiant.setNote(
-								Math.random()<0.3?8:
+								Math.random()<0.4?8:
 										Math.random()<0.5?10:
 												Math.random()<0.9?14:16
 						);
