@@ -68,4 +68,11 @@ public class EtudiantServiceImpl implements IEtudiantService{
     public List<Etudiant> recherche(String texte) {
         return iEtudiantRepositoryJpa.findEtudiantsByNomContains(texte);
     }
+
+    //autres requêtes non héritées donc sans @Override
+    public boolean resultat(double moyenne) {
+        //return iEtudiantRepositoryJpa.;
+return false; //à refaire
+    }
 }
+
