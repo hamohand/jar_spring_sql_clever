@@ -18,7 +18,7 @@ public class EtudiantRestApi {
     //Accueil
     @GetMapping("/")
     String hello() {
-        return "Hello Muhend ! JAR-SQL-CleverCloud, " + "le 05/10 11:30";
+        return "JAR-SQL-react, sur CleverCloud" + "Muhend ! le 06/10 18:00";
     }
 
     //Create
