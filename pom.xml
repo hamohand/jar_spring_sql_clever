@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>jar_jwt_java_sql_scol</artifactId>
+	<artifactId>jar_spring_sql_clever</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jar_jwt_java_sql_scol</name>
+	<name>jar_spring_sql_clever</name>
 	<description>Demo for Spring Boot gcloud</description>
 	<properties>
 		<java.version>17</java.version>
